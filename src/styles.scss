@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@mobiscroll/angular/dist/css/mobiscroll.scss";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/bootstrap";
+
+.md-resource-header-template .mbsc-timeline-resource-col {
+  width: 500px !important;
+}
+@supports (overflow: clip) {
+  .md-resource-header-template.mbsc-ltr .mbsc-schedule-event-inner {
+    left: 500px !important;
+  }
+  .md-resource-header-template.mbsc-rtl .mbsc-schedule-event-inner {
+    right: 500px !important;
+  }
+}
+
+.mbsc-ios.mbsc-ltr.mbsc-timeline-resource.ng-star-inserted {
+  padding-left: 0em !important;
+}
+
+mbsc-schedule-event {
+  height: 30px !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

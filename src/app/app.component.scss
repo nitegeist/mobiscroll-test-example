@@ -1,0 +1,52 @@
+.bg-Completed {
+  background-color: rgba(#119100, 0.2);
+}
+
+.border-Completed {
+  border-color: #119100;
+}
+
+.md-custom-header-button.mbsc-button {
+  font-size: 20px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.md-custom-header .mbsc-segmented {
+  width: 110px;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.md-custom-header .mbsc-material.mbsc-segmented,
+.md-custom-header .mbsc-windows.mbsc-segmented {
+  padding: 0;
+}
+
+.md-custom-header .mbsc-segmented .mbsc-segmented-button {
+  font-size: 20px;
+  height: 32px;
+  padding: 0;
+}
+
+.md-timeline-template-event-cont {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.md-resource-header-template-driver,
+.md-resource-header-template-truck,
+.md-resource-header-template-trailer {
+  width: 100px;
+  height: 100%;
+}
+
+.md-timeline-template-event-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
